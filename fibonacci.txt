@@ -17,3 +17,4 @@ public class Fibonacci {
 		System.out.println(Fibonacci.of(number)[i]);
 	}
 }
+
