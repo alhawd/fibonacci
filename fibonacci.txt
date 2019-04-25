@@ -1,4 +1,4 @@
-public class fibonacci {
+public class Fibonacci {
 	public static BigInteger[] of(int number) {
 		if(number == 0 || number ==1) {
 			BigInteger[]  a = {BigInteger.ONE,BigInteger.ONE};
@@ -14,6 +14,6 @@ public class fibonacci {
 	public static void main(String[] ars) {
 		int number = 200;
 		for(int i = 0;i < number;i++)
-			System.out.println(fibonacci.of(number)[i]);
+		System.out.println(Fibonacci.of(number)[i]);
 	}
 }
